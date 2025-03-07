@@ -1,0 +1,32 @@
+int strangeLogic(int x, int y, int z) {
+    int result;
+
+    if (x > y) {
+        if (y > z) {
+            if (z % 2 == 0) {
+                result = x + y + z;
+            } else if (x % 2 == 0) {
+                if (y % 2 != 0) {
+                    result = x * z;
+                }
+            }
+        } else {
+            if (z % 3 == 0) {
+                result = z + y;
+            } else if (z > x) {
+                result = x - z;
+            }
+        }
+    } else if (x == 0) {
+        if (y == 0) {
+            if (z == 0) {
+                return -1;  // Cas particulier pour éviter une division par zéro
+            }
+        }
+        result = z / (x + 1);
+    } else {
+        result = y + z - x;
+    }
+
+    return result;
+}

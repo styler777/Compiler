@@ -1,0 +1,7 @@
+void incorrectIf2(int x) {
+    if (x > 0); {  // Point-virgule après le `if`
+        x = x + 1;
+    } else {
+        x = x - 1;
+    }
+}

@@ -1,0 +1,12 @@
+void printArray(int size) {
+    int i;
+    while(i == 0) {
+        display(i);  // Appel d'une autre fonction
+    }
+}
+
+void display(int num) {
+    static int count;
+    count = count + 1;
+    return;
+}

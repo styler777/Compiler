@@ -1,0 +1,7 @@
+void testCondition() {
+    if (x > 10) 
+        int y = 5;
+    else {
+        y = 10; // Erreur : "y" non déclaré dans le bloc else
+    }
+}

@@ -1,0 +1,5 @@
+int ______(int a, int b) {
+    static int result;  // Variable statique
+    result = a + b;
+    return result;
+}

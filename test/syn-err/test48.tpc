@@ -1,0 +1,3 @@
+int var name(int y) {  // Espace dans l'identifiant
+    return y - 1;
+}

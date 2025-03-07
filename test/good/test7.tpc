@@ -1,0 +1,17 @@
+void test_addition(void) {
+    assert(addition(3, 2) == 5);
+    assert(addition(-1, -1) == -2);
+    assert(addition(0, 0) == 0);
+}
+
+void test_soustraction(void) {
+    assert(soustraction(3, 2) == 1);
+    assert(soustraction(5, 10) == -5);
+    assert(soustraction(0, 0) == 0);
+}
+
+int main(void) {
+    test_addition();
+    test_soustraction();
+    return 0;
+}

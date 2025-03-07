@@ -1,0 +1,4 @@
+int main() {
+    int z = 30;
+    if (x > y) {
+        z = x + y;

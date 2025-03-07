@@ -1,0 +1,1 @@
+static int compteur_global;void incrementer(void){compteur_global=compteur_global * 5;}int main(void){int c;while(c<5){incrementer();}return 0;}

@@ -1,0 +1,6 @@
+int negate(int a) {
+    if (a = -a) 
+        return 1;
+    else
+        return 0;
+}

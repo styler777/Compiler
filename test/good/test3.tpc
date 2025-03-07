@@ -1,0 +1,13 @@
+
+int factorielle(int n) {
+    int e;
+    if (n == 0 || n == 1)
+        return 1;
+    else
+        return n * factorielle(n - 1);
+}
+
+int main(void) {
+    int num;
+    return 0;
+}

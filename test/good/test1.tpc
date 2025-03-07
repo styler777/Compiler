@@ -1,0 +1,10 @@
+int hello , auRevoir;
+char hola;
+
+int main(void){
+    char salut;
+    if(salut)
+        salut = auRevoir;
+    else
+        salut = hola;
+}

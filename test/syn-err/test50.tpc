@@ -1,0 +1,12 @@
+static int totalSum ;
+
+int addAndStore(int a, int b) {
+    int localResult = a + b;
+    totalSum += localResult;  // Accès à la variable globale
+    return totalSum;
+}
+
+
+int main(void){
+   x =compute();
+}

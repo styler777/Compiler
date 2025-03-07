@@ -1,0 +1,7 @@
+void testBlock(void) {
+    if (x == 0)
+    {
+    else
+        y = 10; // Manque l'accolade fermante pour le bloc if
+}
+}

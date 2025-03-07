@@ -1,0 +1,14 @@
+int incorrectIf1(int a, int b) {
+    if (a > b {  // Oubli de la parenthèse fermante
+        if (b < 10) {
+            return a + b;
+        }
+    } else {  // Le `else` est mal aligné
+        return b - a;
+    }
+}
+
+
+int main(void){
+   x =compute();
+}

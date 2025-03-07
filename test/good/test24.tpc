@@ -1,0 +1,7 @@
+
+int main(void){
+if(x > 10 // Vérifie si x est plus grand que 10
+    && x < 20) {
+    printf();
+}
+}

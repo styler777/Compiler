@@ -1,0 +1,24 @@
+int verifier(int x){
+int resultat; // Variable pour stocker un code correspondant aux résultats
+if(x>0){
+    if(x%2==0){
+        if(x>10){
+            if(x<20){
+                if(x==15){resultat=1;} // Cas parfait : 15
+                else{resultat=2;} // Entre 10 et 20 mais pas 15
+            }else{resultat=3;} // Supérieur à 10 mais pas inférieur à 20
+        }else{resultat=4;} // Positif et pair mais pas supérieur à 10
+    }else{resultat=5;} // Positif mais pas pair
+}else{resultat=6;} // Négatif ou nul
+return resultat;
+}
+
+int main(void){
+test1=verifier(15); // Devrait retourner 1
+test2=verifier(8);  // Devrait retourner 4
+test3=verifier(25); // Devrait retourner 3
+test4=verifier(-5); // Devrait retourner 6
+test5=verifier(12); // Devrait retourner 4
+// Ici, pas de printf. Vous pouvez inspecter les valeurs des tests avec un debugger ou ajouter un affichage si nécessaire.
+return 0;
+}

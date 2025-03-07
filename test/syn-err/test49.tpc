@@ -1,0 +1,10 @@
+void incorrectWhile1(void) {
+    while () {  // Condition absente
+        printf("Boucle infinie\n");
+    }
+}
+
+
+int main(void){
+   x =compute();
+}

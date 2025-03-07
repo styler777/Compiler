@@ -1,0 +1,8 @@
+// Exemple 10 : Instruction imbriquée incorrecte
+void testNestedInstruction(void) {
+    while (x < 10)
+        if (y > 5)
+            y = y-1;
+        else 
+            // Manque l'instruction après else
+}

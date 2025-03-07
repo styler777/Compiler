@@ -1,0 +1,3 @@
+int var-name(int x) {  // Tiret interdit dans les identifiants
+    return x + 1;
+}

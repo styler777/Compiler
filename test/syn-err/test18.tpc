@@ -1,0 +1,4 @@
+void testLoop() {
+    while (x < 20) 
+        x++ // Manque un point-virgule après x++
+}

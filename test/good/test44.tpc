@@ -1,0 +1,11 @@
+int calculateSum(int a, int b) {
+    static int total;
+    int result;
+    if (a > b) {
+        result = a + b;
+    } else {
+        result = b - a;
+    }
+    total = total + result;
+    return total;
+}

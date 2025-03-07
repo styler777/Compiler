@@ -1,0 +1,3 @@
+int y; 
+// Ceci est la valeur initiale
+y = 5;

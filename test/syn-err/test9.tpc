@@ -1,0 +1,4 @@
+void anotherFunc(int c) 
+    int d = c * 2;
+    return;
+}

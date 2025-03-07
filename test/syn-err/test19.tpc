@@ -1,0 +1,4 @@
+void testAssignment() {
+    int x;
+    x = ; // Erreur : expression manquante après "="
+}

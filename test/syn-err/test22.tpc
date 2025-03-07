@@ -1,0 +1,4 @@
+void testIncompleteInstruction() {
+    int x;
+    if (x < 0) // Manque le bloc ou l'instruction après la condition
+}

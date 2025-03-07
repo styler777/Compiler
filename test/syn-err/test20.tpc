@@ -1,0 +1,3 @@
+void testFunctionCall() {
+    int result = add(5, ); // Erreur : paramètre manquant dans l'appel
+}

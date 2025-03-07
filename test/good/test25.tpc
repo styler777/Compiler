@@ -1,0 +1,3 @@
+void /* Cette fonction affiche un message */ displayMessage(void) {
+    printf();
+}

@@ -1,0 +1,2 @@
+int my_function();
+int result = my_function(10);

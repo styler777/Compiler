@@ -1,0 +1,4 @@
+void testEmptyInstruction(void) {
+    ; // Instruction vide inutile
+    x = 10;
+}
