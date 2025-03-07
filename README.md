@@ -33,13 +33,13 @@ Un mini-compilateur est conçu pour analyser un sous-ensemble du langage C, tel 
 Téléchargez le fichier compressé du projet :
 
 ```bash
-ProjetASL3_DESRAVINES.tar.gz
+Projet.tar.gz
 ```
 
 Décompressez le fichier dans le répertoire de votre choix :
 
 ```bash
-unzip ProjetASL3_DESRAVINES.tar.gz
+unzip Projet.tar.gz
 ```
 
 Accédez au dossier du projet :
